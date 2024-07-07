@@ -141,8 +141,8 @@ main {
 
     display: flex;
     flex-direction: row;
-    justify-content: start;
-    align-items: start;
+    justify-content: space-between;
+    align-items: center;
     gap: 20px;
 
     color: var(--gray-100);
@@ -157,7 +157,6 @@ main {
     border: 1px solid var(--blue);
     background-color: transparent;
     border-radius: 100%;
-    margin-top: 5px;
 }
 
 .delete-todo-btn {
@@ -181,4 +180,12 @@ main {
 .todo-item-completed span {
     text-decoration: line-through;
     color: var(--gray-300);
+}
+
+.todo-left-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
 }
